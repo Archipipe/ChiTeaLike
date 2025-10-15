@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favorites_nav_graph"
+    app:startDestination="@id/favoritesFragment">
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.chitealike.presentation.fragments.FavoritesFragment"
+        android:label="FavoritesFragment" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_favoritesCreateFragment"
+            app:destination="@id/favoritesCreateFragment"
+            app:popUpTo="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_favoritesEditFragment"
+            app:destination="@id/favoritesEditFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesCreateFragment"
+        android:name="com.example.chitealike.presentation.fragments.FavoritesCreateFragment"
+        android:label="FavoritesCreateFragment" />
+
+    <fragment
+        android:id="@+id/favoritesEditFragment"
+        android:name="com.example.chitealike.presentation.fragments.FavoritesEditFragment"
+        android:label="FavoritesEditFragment" >
+        <argument
+            android:name="favoriteId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

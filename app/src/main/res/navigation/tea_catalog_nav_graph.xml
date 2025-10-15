@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tea_catalog_nav_graph"
+    app:startDestination="@id/teaCatalogFragment">
+
+    <fragment
+        android:id="@+id/teaCatalogFragment"
+        android:name="com.example.chitealike.presentation.fragments.TeaCatalogFragment"
+        android:label="TeaCatalogFragment" >
+        <action
+            android:id="@+id/action_teaCatalogFragment_to_teaItemFragment"
+            app:destination="@id/teaItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teaItemFragment"
+        android:name="com.example.chitealike.presentation.fragments.TeaItemFragment"
+        android:label="TeaItemFragment" >
+        <argument
+            android:name="teaItemId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

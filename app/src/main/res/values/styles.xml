@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/classic_brown</item>
+    </style>
+
+    <style name="MyTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+        <item name="hintTextColor">@color/classic_brown</item>
+
+        <item name="cursorColor">@color/classic_brown</item>
+    </style>
+
+</resources>

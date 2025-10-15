@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dishes_catalog_nav_graph"
+    app:startDestination="@id/dishesCatalogFragment">
+
+    <fragment
+        android:id="@+id/dishesCatalogFragment"
+        android:name="com.example.chitealike.presentation.fragments.DishesCatalogFragment"
+        android:label="DishesCatalogFragment" >
+        <action
+            android:id="@+id/action_dishesCatalogFragment_to_dishItemFragment"
+            app:destination="@id/dishItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dishItemFragment"
+        android:name="com.example.chitealike.presentation.fragments.DishItemFragment"
+        android:label="DishItemFragment" >
+        <argument
+            android:name="dishItemId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChiTeaLike" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">#292929</item>
+    </style>
+
+    <style name="Theme.ChiTeaLike" parent="Base.Theme.ChiTeaLike" >
+        <item name="android:statusBarColor">#292929</item>
+    </style>
+
+</resources>

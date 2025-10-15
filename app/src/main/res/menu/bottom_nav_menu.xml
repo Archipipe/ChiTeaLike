@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tea_catalog_nav_graph"
+        android:title="Чаи"
+        android:icon="@drawable/ic_tea_leaf"/>
+
+    <item
+        android:id="@+id/dishes_catalog_nav_graph"
+        android:title="Посуда"
+        android:icon="@drawable/ic_tea_dishes"/>
+
+    <item
+        android:id="@+id/favorites_nav_graph"
+        android:title="Избранное"
+        android:icon="@drawable/ic_favorite"/>
+
+
+</menu>

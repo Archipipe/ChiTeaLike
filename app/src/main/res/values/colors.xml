@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gray">#9A9A9A</color>
+    <color name="light_tan">#FFF8F2</color>
+    <color name="dark_brown">#5D4037</color>
+    <color name="darker_brown">#392722</color>
+    <color name="classic_brown">#795548</color>
+    <color name="white">#FFFFFF</color>
+    <color name="radio_button_color">#FFA726</color>
+
+    <color name="red_tea">#A03A27</color>
+    <color name="puer_tea">#C45F27</color>
+    <color name="black_tea">#360005</color>
+    <color name="green_tea">#EDE799</color>
+    <color name="white_tea">#FBD466</color>
+    <color name="oolong_tea">#EEE377</color>
+    <color name="yellow_tea">#DDD0A0</color>
+
+</resources>
